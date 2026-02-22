@@ -4,10 +4,10 @@ A minimal, fast-loading personal portfolio website built with vanilla HTML, Tail
 
 ## Tech Stack
 
-- **HTML5** - Semantic, accessible markup
-- **Tailwind CSS v4** - Utility-first styling via Standalone CLI
-- **Vanilla JavaScript** - Minimal (~50 lines) for smooth scrolling and animations
-- **GitHub Pages** - Free, reliable hosting
+- **HTML5**
+- **Tailwind CSS v4**
+- **Vanilla JavaScript**
+- **GitHub Pages**
 
 ## Development
 
@@ -27,7 +27,7 @@ Install the [tailwindcss CLI](https://tailwindcss.com/docs/installation/tailwind
    git push
    ```
 
-### Watch Mode (Development)
+### Watch Mode
 
 For active development with auto-rebuild:
 
@@ -38,7 +38,6 @@ For active development with auto-rebuild:
 Keep this running in a terminal while editing. Changes to `src/input.css` or `index.html` will automatically rebuild the CSS.
 
 ### Local Server
-For a more production-like environment:
 
 ```bash
 python3 -m http.server 8080
